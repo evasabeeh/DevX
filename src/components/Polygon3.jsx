@@ -1,11 +1,11 @@
 const PolygonComponent = () => {
     return (
-        <div className="relative w-100 h-100 mx-auto flex items-center justify-center mr-10">
+        <div className="relative w-100 h-100 mx-auto flex items-center justify-center">
 
             <svg
                 viewBox="-20 -50 60 65"
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 w-90 h-90 z-0"
+                className="absolute inset-0 w-100 h-100 z-0"
             >
 
                 <path
@@ -23,10 +23,10 @@ const PolygonComponent = () => {
             <img
                 src="https://randomuser.me/api/portraits/women/1.jpg"
                 alt="Avatar"
-                className="w-20 h-20 rounded-full absolute -top-5 left-45 transform -translate-x-1/2 z-10"
+                className="w-20 h-20 rounded-full absolute -top-2 left-45 transform -translate-x-1/2 z-10"
             />
 
-            <div className="relative z-10 text-center mr-5 -mt-20">
+            <div className="relative z-10 text-center -mt-8">
                 <h3 className="text-lg font-semibold text-gray-700">Hannah Smmith</h3>
                 <p className="text-sm text-gray-600 mb-1">UPSC Aspirant</p>
                 <p className="text-6xl text-lightgreen mt-5">“</p>
