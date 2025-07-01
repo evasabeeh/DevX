@@ -5,32 +5,31 @@ const PolygonComponent = () => {
             <svg
                 viewBox="-22 -44 55 55"
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 w-90 h-90 z-0"
+                className="absolute inset-0 w-full h-full z-0"
             >
-
                 <path
-                    d="M -21 -1 L -15 -35 C -15 -37 -14 -40 -12 -41 L 17 -44 C 23 -44 26 -44 28 -38 L 31 -8 C 31 -1 29 0 25 2 L -13 8 C -19 9 -22 6 -21 -1"
+                    d="M -18 -2 L -14.843 -27.987 C -12.534 -30.682 -12.534 -33.376 -7.299 -35.839 L 17 -44 C 23 -44 26 -44 28 -38 L 31 -8 C 31 -1 29 0 25 2 L -8 6 C -15 7 -18 4 -18 -2"
                     fill="darkgreen"
-                    transform="rotate(10) translate(-1, 1)"
+                    transform="rotate(-3) scale(-1, 1) translate(-16, -2)" 
                 />
 
                 <path
-                    d="M -21 -1 L -15 -35 C -15 -37 -14 -40 -12 -41 L 17 -44 C 23 -44 26 -44 28 -38 L 31 -8 C 31 -1 29 0 25 2 L -13 8 C -19 9 -22 6 -21 -1"
-                    className="fill-white stroke-black stroke-[0.05]"
+                    d="M -18 -2 L -14.312 -34.68 C -14.509 -38.828 -9.571 -42.976 -3.645 -42.976 L 16.107 -44.161 C 23.021 -45.149 27.366 -43.964 29.342 -37.248 L 31 -8 C 31 -1 29 0 25 2 L -8.583 6.998 C -15 7 -18 4 -18 -2"
+                    className="fill-white stroke-black stroke-[0.1]"
                 />
             </svg>
 
             <img
-                src="https://randomuser.me/api/portraits/women/44.jpg"
+                src="https://randomuser.me/api/portraits/women/2.jpg"
                 alt="Avatar"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-md absolute -top-10 left-1/2 transform -translate-x-1/2 z-10"
+                className="w-20 h-20 rounded-full absolute -top-5 left-50 transform -translate-x-1/2 z-10"
             />
 
-            <div className="relative z-10 text-center px-4 mt-16">
-                <h3 className="text-lg font-semibold">Hannah Smmith</h3>
-                <p className="text-sm text-gray-500 mb-1">NEET Aspirant</p>
-                <p className="text-4xl text-lightgreen mt-5">“</p>
-                <p className="text-xs text-gray-700 leading-snug">
+            <div className="relative z-10 text-center ml-5 -mt-15">
+                <h3 className="text-lg font-semibold text-gray-700">Hannah Smmith</h3>
+                <p className="text-sm text-gray-600 mb-5">NEET Aspirant</p>
+                <p className="text-7xl text-lightgreen mt-10">“</p>
+                <p className="text-xs -mt-7  text-gray-600 leading-snug px-20">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit itaque eaque earum voluptates deserunt blanditiis doloribus.
                 </p>
             </div>
@@ -39,3 +38,4 @@ const PolygonComponent = () => {
 };
 
 export default PolygonComponent;
+
