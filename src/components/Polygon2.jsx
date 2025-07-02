@@ -1,16 +1,16 @@
 const PolygonComponent = () => {
     return (
-        <div className="relative w-100 h-100 mx-auto flex items-center justify-center">
-
+        <div className="relative w-full max-w-[400px] h-[400px] flex flex-col items-center justify-center mx-auto">
             <svg
-                viewBox="-22 -44 55 55"
+                viewBox="-21 -47 55 55"
+
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 w-100 h-100 z-0 mt-10"
+                className="w-full max-w-[400px] h-auto z-0"
             >
                 <path
                     d="M -18 -2 L -14.843 -27.987 C -12.534 -30.682 -12.534 -33.376 -7.299 -35.839 L 17 -44 C 23 -44 26 -44 28 -38 L 31 -8 C 31 -1 29 0 25 2 L -8 6 C -15 7 -18 4 -18 -2"
                     fill="darkgreen"
-                    transform="rotate(-3) scale(-1, 1) translate(-16, -2)" 
+                    transform="rotate(-3) scale(-1, 1) translate(-16, -2)"
                 />
 
                 <path
@@ -20,16 +20,16 @@ const PolygonComponent = () => {
             </svg>
 
             <img
-                src="https://randomuser.me/api/portraits/women/2.jpg"
+                src="https://randomuser.me/api/portraits/women/1.jpg"
                 alt="Avatar"
-                className="w-20 h-20 rounded-full absolute -top-0 left-55 transform -translate-x-1/2 z-10"
+                className="w-20 h-20 rounded-full absolute top-0 left-45 md:-top-4 md:left-55 transform -translate-x-1/2 z-10"
             />
 
-            <div className="relative z-10 text-center ml-8 mt-2">
+            <div className="absolute z-10 text-center">
                 <h3 className="text-lg font-semibold text-gray-700">Hannah Smmith</h3>
-                <p className="text-sm text-gray-600 mb-5">NEET Aspirant</p>
-                <p className="text-7xl text-lightgreen mt-10">“</p>
-                <p className="text-xs -mt-7  text-gray-600 leading-snug px-18">
+                <p className="text-sm text-gray-600 mb-1">UPSC Aspirant</p>
+                <p className="text-6xl text-lightgreen mt-5">“</p>
+                <p className="text-xs -mt-7 text-gray-600 leading-snug px-17 md:px-25">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit itaque eaque earum voluptates deserunt blanditiis doloribus.
                 </p>
             </div>
@@ -38,4 +38,5 @@ const PolygonComponent = () => {
 };
 
 export default PolygonComponent;
+
 
