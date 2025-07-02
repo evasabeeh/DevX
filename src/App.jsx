@@ -8,7 +8,7 @@ const App = () => {
       <h1 className="text-4xl font-bold text-darkgreen mb-2">“Voices of Success”</h1>
       <p className="text-darkgreen font-bold mb-20 text-2xl">Our Student Stories</p>
 
-      <div className="flex flex-col md:flex-row md:justify-center md:items-start">
+      <div className="flex flex-col lg:flex-row lg:justify-center lg:items-start">
         <Polygon1 />
         <Polygon2 />
         <Polygon3 />
